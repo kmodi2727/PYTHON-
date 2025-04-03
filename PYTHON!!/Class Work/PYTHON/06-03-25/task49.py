@@ -15,5 +15,3 @@ else:
 
 finally:
     print("finally executed")
-
-    

@@ -1,17 +1,18 @@
-import random
-original=random.randint
-print("*"*10,"WELCOME TO GUESS THE NUMBER GAME :)","*"*10)
-while True:
+import random 
+original=random.randint(1,50)
+print("*"*10,"WELCOME TO THE GAME","*"*10)
 
-    choice=int(input("ENTER ANY NUMBER : "))
-    
+while True:
+    choice=int(input("ENTER A NUMBER : "))
+
     if choice>50:
-        print("OOOPPPSSSS INVALID CHOICE!!")
+        print("INVALID CHOICE!!!:)")
         break
     elif choice==original:
-        print("YOU WINNNNNN!!!")
+        print("YOU WIN BRO!!!")
         break
     elif choice>original:
-        print(choice,"IS BIGGER THAN THE ORIGINAL!!")
+        print(choice,"YOUR NUMBER IS BIGGER!!!")
     else:
-        print(choice,"IS LESS THAN THE ORIGINAL!!")
+        print(choice,"YOUR NUMBER IS SMALLER!!!")
+        

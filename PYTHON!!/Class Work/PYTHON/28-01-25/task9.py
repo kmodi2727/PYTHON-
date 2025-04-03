@@ -15,7 +15,7 @@ if choice == 1:
 
         print("PRODUCT ADDED SUCCESSFULLY")
 
-        choice3 = int(input("PRESS 3 FOR PURCHASE PRODUCT"))
+        choice3 = int(input("PRESS 3 FOR PURCHASE PRODUCT : "))
 
         if choice3==3:
            qty1 = int(input("ENTER QUANTITY : "))
