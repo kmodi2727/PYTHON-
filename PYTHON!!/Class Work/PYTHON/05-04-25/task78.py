@@ -1,0 +1,38 @@
+from tkinter import *
+from task79 import *
+root = Tk()
+root.geometry("500x500")
+root.title("SIGNUP FORM")
+
+name = Label(root,text="Name",font=("Calibri",16,"bold"))
+name.place(x=50,y=50)
+email = Label(root,text="Email",font=("Calibri",16,"bold"))
+email.place(x=50,y=100)
+mobile = Label(root,text="Mobile",font=("Calibri",16,"bold"))
+mobile.place(x=50,y=150)
+password = Label(root,text="Password",font=("Calibri",16,"bold"))
+password.place(x=50,y=200)
+cpassword = Label(root,text="Cpassword",font=("Calibri",16,"bold"))
+cpassword.place(x=50,y=250)
+
+ename = Entry(root,bg="blue")
+ename.place(x=280,y=50)
+eemail = Entry(root,bg="blue")
+eemail.place(x=280,y=100)
+emobile = Entry(root,bg="blue")
+emobile.place(x=280,y=150)
+enpassword = Entry(root,bg="blue")
+enpassword.place(x=280,y=200)
+ecpassword = Entry(root,bg="blue")
+ecpassword.place(x=280,y=250)
+
+insert = Button(root,text = "Insert",font=("Calibri",18,"italic"),fg="red")
+insert.place(x=50,y=320)
+update = Button(root,text = "Update",font=("Calibri",18,"italic"),fg="red")
+update.place(x=160,y=320)
+delete = Button(root,text = "Delete",font=("Calibri",18,"italic"),fg="red")
+delete.place(x=280,y=320)
+login = Button(root,text = "Login",font=("Calibri",18,"italic"),fg="red",command=login)
+login.place(x=400,y=320)
+
+root.mainloop()

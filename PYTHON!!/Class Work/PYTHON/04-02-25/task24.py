@@ -1,4 +1,6 @@
-n=int(input("ENETR YOUR NUMBER : "))
+#fibonacci series +
+
+n=int(input("ENTER YOUR NUMBER : "))
 n1=0
 n2=1
 
